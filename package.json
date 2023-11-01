@@ -12,6 +12,6 @@
     "prettier": "^3.0.3"
   },
   "scripts": {
-    "test:watch": "NODE_ENV=test bun test --watch"
+    "test:foo": "NODE_ENV=test bun test"
   }
 }
