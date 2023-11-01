@@ -1,0 +1,17 @@
+{
+  "name": "bun-test-env-repro",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "test:watch": "NODE_ENV=test bun test --watch"
+  }
+}

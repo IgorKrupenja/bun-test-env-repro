@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript][typescript][typescriptreact][json][jsonc][html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
